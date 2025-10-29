@@ -38,4 +38,12 @@ product-services/product-images/
 .idea/
 .vscode/
 *.iml
+# Ignore Gradle and build artifacts
+.gradle/
+build/
+out/
+
+# Ignore package lock if not needed
+package-lock.json
+
 
